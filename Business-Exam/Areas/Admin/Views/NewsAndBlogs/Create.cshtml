@@ -1,0 +1,42 @@
+﻿@model NewsAndBlogsCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-4 text-gray-800">Create</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="Heading">Heading</label>
+            <input type="text" class="form-control" id="Heading" aria-describedby="headingHelp" asp-for="Heading">
+            <small id="headingHelp" class="form-text text-muted">Write a heading for blog or news.</small>
+            <span class="text-danger" asp-validation-for="Heading"></span>
+        </div>
+        <div class="form-group">
+            <label for="Description">Description</label>
+            <input type="text" class="form-control" id="Description" aria-describedby="descriptionHelp" asp-for="Description">
+            <small id="descriptionHelp" class="form-text text-muted">Write a description for blog or news.</small>
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label class="col-form-label">Enter File Name For Save</label>
+            <input asp-for="ImageTitle" class="form-control" />
+            <span class="text-danger" asp-validation-for="ImageTitle"></span>
+        </div>
+        <div class="form-group">
+            <label for="image">Choose image...</label>
+            <input type="file" accept="image/*" class="form-control-file" id="image" asp-for="Image">
+            <span class="text-danger" asp-validation-for="Image"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a class="btn btn-primary" asp-action="Index" asp-controller="NewsAndBlogs">Go to Index</a>
+    </form>
+
+</div>
+<!-- /.container-fluid -->
+            </div>
+<!-- End of Main Content -->

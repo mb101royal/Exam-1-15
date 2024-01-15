@@ -1,0 +1,58 @@
+﻿@model IEnumerable<NewsAndBlogsDetailsVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-4 text-gray-800">All</h1>
+
+
+    <a class="btn btn-primary mb-3" asp-action="Create" asp-controller="NewsAndBlogs">Create</a>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Description</th>
+                <th scope="col">Image</th>
+                <th scope="col" colspan="2">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td scope="row">@item.Id</td>
+                        <td>@item.Heading</td>
+                        <td>@item.Description</td>
+                        <td>
+                            <img src="/Images/@item.ImageTitle" style="width: 300px">
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Update</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6">No info</td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+
+</div>
+<!-- /.container-fluid -->
+            </div>
+<!-- End of Main Content -->
