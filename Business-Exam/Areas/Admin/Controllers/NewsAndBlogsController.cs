@@ -32,14 +32,15 @@ namespace Business_Exam.Areas.Admin.Controllers
             return View(data);
         }
 
-        [Authorize(Roles = "GrandMaster,SuperAdmin")]
+        // This functionality is not added yet.
+        /*[Authorize(Roles = "GrandMaster,SuperAdmin")]*/
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        [Authorize(Roles = "GrandMaster,SuperAdmin")]
+        /*[Authorize(Roles = "GrandMaster,SuperAdmin")]*/
         [HttpPost]
         public async Task<IActionResult> Create(NewsAndBlogsCreateVM vm)
         {
@@ -73,7 +74,7 @@ namespace Business_Exam.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [Authorize(Roles = "GrandMaster,SuperAdmin")]
+        /*[Authorize(Roles = "GrandMaster,SuperAdmin")]*/
         [HttpGet]
         public IActionResult Edit(int? id)
         {
@@ -82,7 +83,7 @@ namespace Business_Exam.Areas.Admin.Controllers
             return View();
         }
 
-        [Authorize(Roles = "GrandMaster,SuperAdmin")]
+        /*[Authorize(Roles = "GrandMaster,SuperAdmin")]*/
         [HttpPost]
         public async Task<IActionResult> Edit(int? id, NewsAndBlogsUpdateVM vm)
         {
@@ -121,7 +122,7 @@ namespace Business_Exam.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [Authorize(Roles = "GrandMaster,SuperAdmin")]
+        /*[Authorize(Roles = "GrandMaster,SuperAdmin")]*/
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || id < 1) return BadRequest();

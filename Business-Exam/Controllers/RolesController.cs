@@ -7,8 +7,9 @@ namespace Business_Exam.Controllers
 {
     public class RolesController : Controller
     {
-        RoleManager<IdentityRole> _roleManager;
-        UserManager<AppUser> _userManager;
+        readonly RoleManager<IdentityRole> _roleManager;
+        readonly UserManager<AppUser> _userManager;
+
         public RolesController(RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager)
         {
             _roleManager = roleManager;
@@ -22,7 +23,7 @@ namespace Business_Exam.Controllers
         {
             if (!string.IsNullOrEmpty(name))
             {
-                IdentityResult result = await _roleManager.CreateAsync(new IdentityRole(name));
+                var result = await _roleManager.CreateAsync(new IdentityRole(name));
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index");
@@ -41,10 +42,10 @@ namespace Business_Exam.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(string id)
         {
-            IdentityRole role = await _roleManager.FindByIdAsync(id);
+            var role = await _roleManager.FindByIdAsync(id);
             if (role != null)
             {
-                IdentityResult result = await _roleManager.DeleteAsync(role);
+                var result = await _roleManager.DeleteAsync(role);
             }
             return RedirectToAction("Index");
         }
@@ -54,7 +55,7 @@ namespace Business_Exam.Controllers
         public async Task<IActionResult> Edit(string userId)
         {
             // Get user
-            AppUser user = await _userManager.FindByIdAsync(userId);
+            var user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 // Get user roles list
@@ -76,7 +77,7 @@ namespace Business_Exam.Controllers
         public async Task<IActionResult> Edit(string userId, List<string> roles)
         {
             // Get user
-            AppUser user = await _userManager.FindByIdAsync(userId);
+            var user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 // Get user roles list

@@ -22,8 +22,6 @@ namespace Business_Exam
             builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<BusinessDbContext>().AddDefaultTokenProviders();
 
-            builder.Services.AddRazorPages();
-
             builder.Services.Configure<IdentityOptions>(options =>
             {
                 // Password settings.
@@ -57,6 +55,8 @@ namespace Business_Exam
             builder.Services.AddRazorPages();
 
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddHttpContextAccessor();
 
             var app = builder.Build();
 

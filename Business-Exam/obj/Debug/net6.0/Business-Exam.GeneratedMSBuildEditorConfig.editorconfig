@@ -9,81 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Business_Exam
 build_property.RootNamespace = Business_Exam
-build_property.ProjectDir = C:\Users\Birinci Novbe\Desktop\Business-Exam\Business-Exam\
+build_property.ProjectDir = C:\Users\Royal\Desktop\Exam-1-15\Business-Exam\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Birinci Novbe\Desktop\Business-Exam\Business-Exam
+build_property.MSBuildProjectDirectory = C:\Users\Royal\Desktop\Exam-1-15\Business-Exam
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Areas/Admin/Views/NewsAndBlogs/Create.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Areas/Admin/Views/NewsAndBlogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c0FuZEJsb2dzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Areas/Admin/Views/NewsAndBlogs/Edit.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Areas/Admin/Views/NewsAndBlogs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c0FuZEJsb2dzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Areas/Admin/Views/NewsAndBlogs/Index.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Areas/Admin/Views/NewsAndBlogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c0FuZEJsb2dzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Auth/AccessDenied.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Auth/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Auth/Login.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Auth/Register.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Home/Index.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Roles/Create.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Roles/Edit.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Roles/Index.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Roles/UserList.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Roles/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/_ViewImports.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/_ViewStart.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Birinci Novbe/Desktop/Business-Exam/Business-Exam/Views/Shared/_Layout.cshtml]
+[C:/Users/Royal/Desktop/Exam-1-15/Business-Exam/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-91gvdy05us

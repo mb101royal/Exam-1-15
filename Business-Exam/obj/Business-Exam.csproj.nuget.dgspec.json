@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\Business-Exam\\Business-Exam\\Business-Exam.csproj": {}
+    "C:\\Users\\Royal\\Desktop\\Exam-1-15\\Business-Exam\\Business-Exam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\Business-Exam\\Business-Exam\\Business-Exam.csproj": {
+    "C:\\Users\\Royal\\Desktop\\Exam-1-15\\Business-Exam\\Business-Exam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\Business-Exam\\Business-Exam\\Business-Exam.csproj",
+        "projectUniqueName": "C:\\Users\\Royal\\Desktop\\Exam-1-15\\Business-Exam\\Business-Exam.csproj",
         "projectName": "Business-Exam",
-        "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\Business-Exam\\Business-Exam\\Business-Exam.csproj",
-        "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\Business-Exam\\Business-Exam\\obj\\",
+        "projectPath": "C:\\Users\\Royal\\Desktop\\Exam-1-15\\Business-Exam\\Business-Exam.csproj",
+        "packagesPath": "C:\\Users\\Royal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Royal\\Desktop\\Exam-1-15\\Business-Exam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
